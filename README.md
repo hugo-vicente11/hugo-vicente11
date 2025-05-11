@@ -28,7 +28,7 @@ I'm a passionate Computer Science and Engineering student at **Instituto Superio
 
 ---
 
-###  portfolio My Top Projects:
+###  My Top Projects:
 
 * **[Multithreaded Data Storage System](link-to-your-repo/Hovekzzz/projetoSO2)**: Efficient C-based system with multitasking, concurrency, and persistence.
 
