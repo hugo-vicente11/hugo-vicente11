@@ -37,6 +37,5 @@ I'm a passionate Computer Science and Engineering student at **Instituto Superio
 ### 📫 How to Reach Me:
 
 * LinkedIn: [linkedin.com/in/hugo-vicente11/](https://linkedin.com/in/hugo-vicente11/)
-* Email: [yesnt01@proton.me](mailto:yesnt01@proton.me)
 
 ---
