@@ -25,11 +25,11 @@ I'm a Computer Science & Engineering student at Instituto Superior Técnico (IST
 
 ## 🔥 Featured Projects
 
-- [`High-performance key-value storage system`](https://github.com/HoVeRzzz/projetoSO2)  
-  **→ High-performance key-value storage system** with hashtable, concurrency, parallel I/O, and persistence. Built in C with full client-server architecture.
-
 - [`AI Nuruomino Solver`](https://github.com/hugo-vicente11/AI-Nuruomino-Solver)  
   **→ AI puzzle solver** using Backjumping DFS with graph pruning. Smart search, smarter backtracking.
+
+- [`High-performance key-value storage system`](https://github.com/HoVeRzzz/projetoSO2)  
+  **→ High-performance key-value storage system** with hashtable, concurrency, parallel I/O, and persistence. Built in C with full client-server architecture.
 
 - [`Car Park Management System`](https://github.com/HoVeRzzz/projetoIAED)  
   **→ Car park management system** built with error handling and billing logic, from CLI to memory management.
