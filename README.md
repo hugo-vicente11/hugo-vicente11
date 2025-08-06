@@ -15,7 +15,7 @@ I'm a Computer Science & Engineering student at Instituto Superior Técnico (IST
 
 ## 🔧 What I Do Best
 
-- 🧠 **Systems Programming** – Think multithreaded, concurrent, persistent backends from scratch (see [`KVS Subscription Server`]([https://github.com/HoVeRzzz/projetoSO2](https://github.com/hugo-vicente11/KVS-Subscription-Server)))
+- 🧠 **Systems Programming** – Think multithreaded, concurrent, persistent backends from scratch (see [`KVS Subscription Server`](https://github.com/hugo-vicente11/KVS-Subscription-Server))
 - ⚙️ **Infrastructure & SysAdmin** – Managing lab-critical infrastructure across Linux/Windows (including NixOS), automating deployments
 - 🤖 **AI/ML Foundations** – Certified by DeepLearning.AI + IBM in ML, data science, and AI/cybersecurity
 - 🧪 **Problem Solving at Scale** – Built AI solvers like [`AI-Nuruomino-Solver`](https://github.com/hugo-vicente11/AI-Nuruomino-Solver) using DFS + adjacency graphs to optimize search and constraint pruning
