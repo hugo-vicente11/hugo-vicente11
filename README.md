@@ -15,7 +15,7 @@ I'm a Computer Science & Engineering student at Instituto Superior Técnico (IST
 
 ## 🔧 What I Do Best
 
-- 🧠 **Systems Programming** – Think multithreaded, concurrent, persistent backends from scratch (see [`projetoSO2`](https://github.com/HoVeRzzz/projetoSO2))
+- 🧠 **Systems Programming** – Think multithreaded, concurrent, persistent backends from scratch (see [`KVS Subscription Server`]([https://github.com/HoVeRzzz/projetoSO2](https://github.com/hugo-vicente11/KVS-Subscription-Server)))
 - ⚙️ **Infrastructure & SysAdmin** – Managing lab-critical infrastructure across Linux/Windows (including NixOS), automating deployments
 - 🤖 **AI/ML Foundations** – Certified by DeepLearning.AI + IBM in ML, data science, and AI/cybersecurity
 - 🧪 **Problem Solving at Scale** – Built AI solvers like [`AI-Nuruomino-Solver`](https://github.com/hugo-vicente11/AI-Nuruomino-Solver) using DFS + adjacency graphs to optimize search and constraint pruning
@@ -28,10 +28,10 @@ I'm a Computer Science & Engineering student at Instituto Superior Técnico (IST
 - [`AI Nuruomino Solver`](https://github.com/hugo-vicente11/AI-Nuruomino-Solver)  
   **→ AI puzzle solver** using Backjumping DFS with graph pruning. Smart search, smarter backtracking.
 
-- [`High-performance key-value storage system`](https://github.com/HoVeRzzz/projetoSO2)  
+- [`KVS Subscription Server`](https://github.com/hugo-vicente11/KVS-Subscription-Server)
   **→ High-performance key-value storage system** with hashtable, concurrency, parallel I/O, and persistence. Built in C with full client-server architecture.
 
-- [`Car Park Management System`](https://github.com/HoVeRzzz/projetoIAED)  
+- [`Smart Parking Manager`](https://github.com/hugo-vicente11/Smart-Parking-Manager)
   **→ Car park management system** built with error handling and billing logic, from CLI to memory management.
 
 ---
