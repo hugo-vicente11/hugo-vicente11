@@ -1,80 +1,161 @@
-<!-- LinkedIn button -->
+<!-- Banner -->
 <p align="center">
-  <a href="https://www.linkedin.com/in/hugo-vicente11/" target="_blank">
-    <img src="https://img.shields.io/badge/LinkedIn-Hugo%20Vicente-blue?logo=linkedin&style=for-the-badge" alt="LinkedIn">
-  </a>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Hugo%20Vicente&fontAlign=50&fontAlignY=40&desc=Technical%20Product%20%7C%20Solutions%20Engineering%20%7C%20Forward-Deployed%20Execution&descAlign=50&descAlignY=58" />
 </p>
 
-# 👋 Hey, I’m Hugo Oliveira Vicente
+<h1 align="center">Hi, I'm Hugo Vicente 👋</h1>
 
-🚀 **Software Engineer | Systems & Infrastructure | C/C++ • Python • Arch | IST Lisbon**
+<p align="center">
+  <b>Computer Science Engineering student at Instituto Superior Técnico</b><br/>
+  Technical Product Manager · Solutions Engineer · Forward Deployed Engineer
+</p>
 
-I'm a Computer Science & Engineering student at Instituto Superior Técnico (IST) who thrives on **building scalable backend systems**, **low-level infrastructure**, and **automation that actually works**. Currently running production-grade NixOS and Windows environments as a **Systems Administrator @ IST-RNL**, I balance systems work with my passion for performance-first engineering in C/C++, Python, and Java.
-
----
-
-## 🔧 What I Do Best
-
-- 🧠 **Systems Programming** – Think multithreaded, concurrent, persistent backends from scratch (see [`KVS Subscription Server`](https://github.com/hugo-vicente11/KVS-Subscription-Server))
-- ⚙️ **Infrastructure & SysAdmin** – Managing lab-critical infrastructure across Linux/Windows (including NixOS), automating deployments
-- 🤖 **AI/ML Foundations** – Certified by DeepLearning.AI + IBM in ML, data science, and AI/cybersecurity
-- 🧪 **Problem Solving at Scale** – Built AI solvers like [`AI-Nuruomino-Solver`](https://github.com/hugo-vicente11/AI-Nuruomino-Solver) using DFS + adjacency graphs to optimize search and constraint pruning
-- 🛠️ **Tooling & Optimization** – Scripts, tweaks, configs for devs and sysadmins ([`Tweaking`](https://github.com/hugo-vicente11/Tweaking), [`dotfiles`](https://github.com/hugo-vicente11/dotfiles))
+<p align="center">
+  <a href="mailto:hugoliveiravicente@gmail.com">Email</a> ·
+  <a href="https://www.linkedin.com/in/hugo-vicente11">LinkedIn</a> ·
+  <a href="https://github.com/hugo-vicente11">GitHub</a>
+</p>
 
 ---
 
-## 🔥 Featured Projects
+## About me
 
-- [`AI Nuruomino Solver`](https://github.com/hugo-vicente11/AI-Nuruomino-Solver)  
-  **→ AI puzzle solver** using Backjumping DFS with graph pruning. Smart search, smarter backtracking.
+I'm a Computer Science Engineering student at **Instituto Superior Técnico** and an incoming **Product Manager Intern at Cloudflare**.
 
-- [`KVS Subscription Server`](https://github.com/hugo-vicente11/KVS-Subscription-Server)
-  **→ High-performance key-value storage system** with hashtable, concurrency, parallel I/O, and persistence. Built in C with full client-server architecture.
+I like working at the intersection of **product, engineering, and execution**: understanding complex technical requirements, translating them into clear product decisions, and helping teams ship systems that are useful, scalable, and reliable.
 
-- [`Smart Parking Manager`](https://github.com/hugo-vicente11/Smart-Parking-Manager)
-  **→ Car park management system** built with error handling and billing logic, from CLI to memory management.
+My experience spans **machine learning pipelines, cloud infrastructure, distributed systems, observability, and customer-facing platforms**. I have worked on projects involving synthetic clinical data generation, AR-based education, Linux server administration, SaaS analytics, and fault-tolerant distributed systems.
 
----
+Currently, I am especially interested in:
 
-## 🧠 Tech Stack
-
-**Languages:**  
-`C` | `C++` | `Python` | `Java` | `JavaScript` | `TypeScript`
-
-**Systems & Tools:**  
-`GNU/Linux (Arch)` | `Windows Server` | `Git` | `CLI tools` | `VSCode` | `Systemd` | `Bash`
-
-**Core Areas:**  
-`Systems Programming` • `Backend Infrastructure` • `Automation` • `SysAdmin` • `Machine Learning` • `AI Fundamentals`
+- Technical product management
+- Forward-deployed engineering
+- Developer platforms and infrastructure
+- Cloud systems and observability
+- AI-powered products
+- Distributed systems
 
 ---
 
-## 📌 Certs & Credentials
+## What I do
 
-- 🎓 **IST (Instituto Superior Técnico)** – BSc in Computer Science & Engineering (2023–2026)
-- 🧠 **Supervised Machine Learning** – DeepLearning.AI / Stanford  
-- 📊 **Applied Data Science with Python** – IBM  
-- 🔐 **AI & Cybersecurity Fundamentals** – IBM  
-- ⚛️ **Quantum Computing Foundations** – IBM Quantum / The Coding School  
-
----
-
-## 🤝 I’m Open To
-
-- Collaborating on **performance-critical** or **infrastructure-heavy** software  
-- Joining **early-stage or high-impact teams** as a contributor
-- Taking on **freelance systems/infra challenges** (especially C/C++/Python/Linux work)  
-- Internships at **elite engineering orgs** solving **real-world problems**
+```txt
+Product thinking      → turning ambiguous problems into structured technical plans
+Engineering execution → building systems with Python, C, Java, React, Firebase, Linux and AWS
+Infrastructure        → monitoring, automation, Linux servers, Grafana dashboards and HPC environments
+AI & data             → ML pipelines, synthetic data, analytics dashboards and business metrics
+```
 
 ---
 
-## 🗣️ Let’s Talk
+## Featured projects
 
-📍 Lisbon, Portugal  
-🔗 [LinkedIn](https://www.linkedin.com/in/hugo-vicente11)  
-🌐 [GitHub Projects](https://github.com/hugo-vicente11)
+### AI KPI Dashboard
+
+**Python · Pandas · Streamlit · Google Gemini API**
+
+An interactive SaaS analytics dashboard for monitoring business performance across metrics such as MRR, ARR, churn, NRR, CAC, LTV/CAC, and cohort retention.
+
+It also includes a Gemini-powered AI assistant that generates natural-language insights, recommendations, and trend explanations from business data.
+
+[View repository](https://github.com/hugo-vicente11/kpi-dashboard)
 
 ---
 
-> *“Systems that don’t scale are toys. I build tools to last.”*  
-> – Hugo Oliveira Vicente
+### KVS Subscription Server
+
+**C · Pthreads · Mutexes · Semaphores · Linux API**
+
+A multithreaded key-value store with a named-pipe client-server architecture and real-time subscription notifications.
+
+The project focuses on concurrency, synchronization, and systems-level programming, using POSIX threads, mutexes, semaphores, and read-write locks to preserve data consistency across multiple clients.
+
+[View repository](https://github.com/hugo-vicente11/KVS-Subscription-Server)
+
+---
+
+### Fault-Tolerant Blockchain
+
+**Java 17 · gRPC · Protocol Buffers · RSA-2048**
+
+A distributed replicated blockchain ledger with a central sequencer for global transaction ordering and RSA-2048 signed blocks across multiple nodes.
+
+The system implements optimistic execution, linearizable reads, and client failover for low-latency, fault-tolerant operation.
+
+[View repository](https://github.com/hugo-vicente11/fault-tolerant-blockchain-java)
+
+---
+
+## Experience highlights
+
+- Incoming **Product Manager Intern at Cloudflare**
+- Project Manager at **JUNITEC**, leading the technical design of a hybrid data pipeline for synthetic clinical data generation
+- Reduced GPU training costs by up to **70%** through AWS EC2 Spot Instances and a “train on cloud, infer locally” architecture
+- System Administrator at **RNL**, administering and monitoring **80+ Linux servers**, including HPC clusters and virtualized environments
+- Built Grafana observability dashboards that reduced infrastructure incident diagnosis time by **35%**
+- Developed an AR-based educational platform for the **Calouste Gulbenkian Museum** using React and Firebase
+
+---
+
+## Tech stack
+
+### Languages
+
+<p>
+  <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python" />
+  <img src="https://img.shields.io/badge/C-111111?style=for-the-badge&logo=c" />
+  <img src="https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk" />
+  <img src="https://img.shields.io/badge/C++-111111?style=for-the-badge&logo=cplusplus" />
+  <img src="https://img.shields.io/badge/SQL-111111?style=for-the-badge&logo=postgresql" />
+</p>
+
+### Tools & technologies
+
+<p>
+  <img src="https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux" />
+  <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git" />
+  <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker" />
+  <img src="https://img.shields.io/badge/AWS-111111?style=for-the-badge&logo=amazonwebservices" />
+  <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react" />
+  <img src="https://img.shields.io/badge/Firebase-111111?style=for-the-badge&logo=firebase" />
+  <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql" />
+  <img src="https://img.shields.io/badge/Grafana-111111?style=for-the-badge&logo=grafana" />
+  <img src="https://img.shields.io/badge/Streamlit-111111?style=for-the-badge&logo=streamlit" />
+  <img src="https://img.shields.io/badge/Pandas-111111?style=for-the-badge&logo=pandas" />
+</p>
+
+---
+
+## How I like to work
+
+I enjoy roles where I can stay close to both the **problem** and the **implementation**.
+
+That usually means:
+
+- talking to stakeholders and understanding what actually needs to be solved
+- breaking ambiguous requirements into technical deliverables
+- building or coordinating the first working version
+- measuring whether the solution is useful, reliable, and scalable
+- iterating quickly with engineering, product, and users
+
+---
+
+## Currently
+
+- Studying Computer Science and Engineering at Instituto Superior Técnico
+- Preparing for my Product Manager Internship at Cloudflare
+- Building projects around AI, infrastructure, distributed systems, and product analytics
+- Open to work, internships, collaborations, and technical product opportunities
+
+---
+
+## Contact
+
+<p>
+  <a href="mailto:hugoliveiravicente@gmail.com">
+    <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail" />
+  </a>
+  <a href="https://www.linkedin.com/in/hugo-vicente11">
+    <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin" />
+  </a>
+</p>
