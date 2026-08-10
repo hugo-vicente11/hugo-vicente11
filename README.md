@@ -1,161 +1,74 @@
-<!-- Banner -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=220&text=Hugo%20Vicente&fontAlign=50&fontAlignY=40&desc=Technical%20Product%20%7C%20Solutions%20Engineering%20%7C%20Forward-Deployed%20Execution&descAlign=50&descAlignY=58" />
-</p>
+# Hugo Oliveira Vicente
 
-<h1 align="center">Hi, I'm Hugo Vicente 👋</h1>
+**Technical Product Manager · Solutions Engineer · Forward Deployed Engineer**
 
-<p align="center">
-  <b>Computer Science Engineering student at Instituto Superior Técnico</b><br/>
-  Technical Product Manager · Solutions Engineer · Forward Deployed Engineer
-</p>
+[hugovicente.dev](https://hugovicente.dev) · [LinkedIn](https://www.linkedin.com/in/hugo-vicente11) · [GitHub](https://github.com/hugo-vicente11) · hugo.asm11@gmail.com
 
-<p align="center">
-  <a href="mailto:hugoliveiravicente@gmail.com">Email</a> ·
-  <a href="https://www.linkedin.com/in/hugo-vicente11">LinkedIn</a> ·
-  <a href="https://github.com/hugo-vicente11">GitHub</a>
-</p>
+![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
+![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
+![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
+![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
 
 ---
 
-## About me
+## Summary
 
-I'm a Computer Science Engineering student at **Instituto Superior Técnico** and an incoming **Product Manager Intern at Cloudflare**.
-
-I like working at the intersection of **product, engineering, and execution**: understanding complex technical requirements, translating them into clear product decisions, and helping teams ship systems that are useful, scalable, and reliable.
-
-My experience spans **machine learning pipelines, cloud infrastructure, distributed systems, observability, and customer-facing platforms**. I have worked on projects involving synthetic clinical data generation, AR-based education, Linux server administration, SaaS analytics, and fault-tolerant distributed systems.
-
-Currently, I am especially interested in:
-
-- Technical product management
-- Forward-deployed engineering
-- Developer platforms and infrastructure
-- Cloud systems and observability
-- AI-powered products
-- Distributed systems
+CS Engineering student at Instituto Superior Técnico, currently a Product Manager Intern on Cloudflare's Tunnel team. I work at the intersection of product and engineering: scoping ambiguous requirements into shipped systems, and building the systems-level code myself where it matters. Background spans ML pipelines, distributed systems, cloud infrastructure, and observability tooling.
 
 ---
 
-## What I do
+## Experience
 
-```txt
-Product thinking      → turning ambiguous problems into structured technical plans
-Engineering execution → building systems with Python, C, Java, React, Firebase, Linux and AWS
-Infrastructure        → monitoring, automation, Linux servers, Grafana dashboards and HPC environments
-AI & data             → ML pipelines, synthetic data, analytics dashboards and business metrics
-```
+| Role | Organization | Dates |
+|---|---|---|
+| Product Manager Intern, Cloudflare Tunnel | Cloudflare, Lisbon | Jul 2026 – Sep 2026 |
+| Project Manager | JUNITEC, Lisbon | Apr 2026 – Jun 2026 |
+| System Administrator | RNL, Instituto Superior Técnico | Apr 2025 – Jun 2026 |
+| Software Developer | JUNITEC, Lisbon | Oct 2025 – Apr 2026 |
 
----
+**Cloudflare, PM Intern (Tunnel).** Partnered with engineering, design, and customer-facing teams to scope and prioritize roadmap items, translating technical constraints into product requirements.
 
-## Featured projects
+**JUNITEC, Project Manager.** Owned the technical roadmap for a synthetic clinical data platform, combining CTGAN, TimeGAN, Synthea, and BioGears into a modular ML pipeline. Managed experimentation over 500Hz biosignal data from 6,000+ surgical patient records. Cut model experimentation costs by up to 70% via a standardized "train remotely, infer locally" workflow on Google Colab Pro.
 
-### AI KPI Dashboard
+**RNL, IST, System Administrator.** Administer and monitor 80+ Linux servers, including HPC clusters and virtualized environments. Built Grafana observability dashboards that reduced infrastructure incident diagnosis time by 35%.
 
-**Python · Pandas · Streamlit · Google Gemini API**
-
-An interactive SaaS analytics dashboard for monitoring business performance across metrics such as MRR, ARR, churn, NRR, CAC, LTV/CAC, and cohort retention.
-
-It also includes a Gemini-powered AI assistant that generates natural-language insights, recommendations, and trend explanations from business data.
-
-[View repository](https://github.com/hugo-vicente11/kpi-dashboard)
+**JUNITEC, Software Developer.** Built an AR-based educational platform for the Calouste Gulbenkian Museum using React and Firebase, translating stakeholder requirements into weekly engineering deliverables.
 
 ---
 
-### KVS Subscription Server
+## Projects
 
-**C · Pthreads · Mutexes · Semaphores · Linux API**
+**[TraceBloom](https://github.com/hugo-vicente11/TraceBloom)** · Rust, TypeScript, Next.js, ClickHouse, OpenTelemetry, Docker
+Open-source observability and evaluation platform for LLM agents. Rust OTLP collector, ClickHouse storage, a live trace viewer, TS/Python SDKs, and an LLM-judge eval engine that flags prompt regressions. Directed AI agents through implementation while owning all architecture decisions across 7 milestones; 170+ automated tests in CI, 14 dependency CVEs remediated before public release.
 
-A multithreaded key-value store with a named-pipe client-server architecture and real-time subscription notifications.
+**[KVS Subscription Server](https://github.com/hugo-vicente11/KVS-Subscription-Server)** · C, Pthreads, Mutexes, Semaphores, Linux API
+Multithreaded key-value store with a named-pipe client-server architecture and real-time subscription notifications. POSIX thread synchronization (mutexes, semaphores, read-write locks) preserves data consistency across concurrent client sessions.
 
-The project focuses on concurrency, synchronization, and systems-level programming, using POSIX threads, mutexes, semaphores, and read-write locks to preserve data consistency across multiple clients.
+**[Fault-Tolerant Blockchain](https://github.com/hugo-vicente11/fault-tolerant-blockchain-java)** · Java 17, gRPC, Protocol Buffers, RSA-2048
+Distributed replicated blockchain ledger with a central sequencer for global transaction ordering and RSA-2048 signed blocks across multiple nodes. Implements optimistic execution, linearizable reads, and client failover.
 
-[View repository](https://github.com/hugo-vicente11/KVS-Subscription-Server)
+**[AI-Nuruomino-Solver](https://github.com/hugo-vicente11/AI-Nuruomino-Solver)** · Python, CSP, DFS Backjumping, Graph Algorithms
+Constraint-satisfaction solver for the Nuruomino (LITS) puzzle. Custom backjumping DFS with region-based MRV heuristics, adjacency-graph analysis, and forward checking to prune invalid layouts efficiently.
 
----
-
-### Fault-Tolerant Blockchain
-
-**Java 17 · gRPC · Protocol Buffers · RSA-2048**
-
-A distributed replicated blockchain ledger with a central sequencer for global transaction ordering and RSA-2048 signed blocks across multiple nodes.
-
-The system implements optimistic execution, linearizable reads, and client failover for low-latency, fault-tolerant operation.
-
-[View repository](https://github.com/hugo-vicente11/fault-tolerant-blockchain-java)
+**[Smart-Parking-Manager](https://github.com/hugo-vicente11/Smart-Parking-Manager)** · C
+Modular system for managing multiple parking lots: vehicle tracking, fee calculation, and revenue reporting, with full input validation and memory safety.
 
 ---
 
-## Experience highlights
+## Skills
 
-- Incoming **Product Manager Intern at Cloudflare**
-- Project Manager at **JUNITEC**, leading the technical design of a hybrid data pipeline for synthetic clinical data generation
-- Reduced GPU training costs by up to **70%** through AWS EC2 Spot Instances and a “train on cloud, infer locally” architecture
-- System Administrator at **RNL**, administering and monitoring **80+ Linux servers**, including HPC clusters and virtualized environments
-- Built Grafana observability dashboards that reduced infrastructure incident diagnosis time by **35%**
-- Developed an AR-based educational platform for the **Calouste Gulbenkian Museum** using React and Firebase
+**Languages:** Python, C, Java, C++, SQL
+**Tools & Platforms:** Git, Linux, Docker, PostgreSQL, ClickHouse, React, Firebase, Grafana, Google Colab
+**Certifications:** Data Science with Python, Machine Learning, Introduction to Quantum Computing (IBM)
+**Languages spoken:** Portuguese (native), English (fluent), Spanish (basic), French (basic)
 
 ---
 
-## Tech stack
+## Education
 
-### Languages
-
-<p>
-  <img src="https://img.shields.io/badge/Python-111111?style=for-the-badge&logo=python" />
-  <img src="https://img.shields.io/badge/C-111111?style=for-the-badge&logo=c" />
-  <img src="https://img.shields.io/badge/Java-111111?style=for-the-badge&logo=openjdk" />
-  <img src="https://img.shields.io/badge/C++-111111?style=for-the-badge&logo=cplusplus" />
-  <img src="https://img.shields.io/badge/SQL-111111?style=for-the-badge&logo=postgresql" />
-</p>
-
-### Tools & technologies
-
-<p>
-  <img src="https://img.shields.io/badge/Linux-111111?style=for-the-badge&logo=linux" />
-  <img src="https://img.shields.io/badge/Git-111111?style=for-the-badge&logo=git" />
-  <img src="https://img.shields.io/badge/Docker-111111?style=for-the-badge&logo=docker" />
-  <img src="https://img.shields.io/badge/AWS-111111?style=for-the-badge&logo=amazonwebservices" />
-  <img src="https://img.shields.io/badge/React-111111?style=for-the-badge&logo=react" />
-  <img src="https://img.shields.io/badge/Firebase-111111?style=for-the-badge&logo=firebase" />
-  <img src="https://img.shields.io/badge/PostgreSQL-111111?style=for-the-badge&logo=postgresql" />
-  <img src="https://img.shields.io/badge/Grafana-111111?style=for-the-badge&logo=grafana" />
-  <img src="https://img.shields.io/badge/Streamlit-111111?style=for-the-badge&logo=streamlit" />
-  <img src="https://img.shields.io/badge/Pandas-111111?style=for-the-badge&logo=pandas" />
-</p>
+**Instituto Superior Técnico**, Lisbon. B.Sc. Computer Science and Engineering (Sep 2023 - Jun 2026)
 
 ---
 
-## How I like to work
-
-I enjoy roles where I can stay close to both the **problem** and the **implementation**.
-
-That usually means:
-
-- talking to stakeholders and understanding what actually needs to be solved
-- breaking ambiguous requirements into technical deliverables
-- building or coordinating the first working version
-- measuring whether the solution is useful, reliable, and scalable
-- iterating quickly with engineering, product, and users
-
----
-
-## Currently
-
-- Studying Computer Science and Engineering at Instituto Superior Técnico
-- Preparing for my Product Manager Internship at Cloudflare
-- Building projects around AI, infrastructure, distributed systems, and product analytics
-- Open to work, internships, collaborations, and technical product opportunities
-
----
-
-## Contact
-
-<p>
-  <a href="mailto:hugoliveiravicente@gmail.com">
-    <img src="https://img.shields.io/badge/Email-111111?style=for-the-badge&logo=gmail" />
-  </a>
-  <a href="https://www.linkedin.com/in/hugo-vicente11">
-    <img src="https://img.shields.io/badge/LinkedIn-111111?style=for-the-badge&logo=linkedin" />
-  </a>
-</p>
+hugo.asm11@gmail.com · [linkedin.com/in/hugo-vicente11](https://www.linkedin.com/in/hugo-vicente11) · [github.com/hugo-vicente11](https://github.com/hugo-vicente11)
