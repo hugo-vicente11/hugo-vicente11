@@ -2,7 +2,7 @@
 
 Technical Product Manager and Software Engineer based in Lisbon. Computer Science and Engineering graduate from Instituto Superior Técnico.
 
-Most recently a Product Manager Intern on Cloudflare Tunnel, where I owned [Protected Quick Tunnels](https://blog.cloudflare.com/protected-quick-tunnels): email authentication for accountless tunnels, behind a single flag. Before that, I administered 80+ Linux servers at IST and led an ML project on synthetic clinical data.
+Most recently a Product Manager Intern on Cloudflare Tunnel, where I owned [Protected Quick Tunnels](https://blog.cloudflare.com/protected-quick-tunnels/): email authentication for accountless tunnels, behind a single flag. Before that, I administered 80+ Linux servers at IST and led an ML project on synthetic clinical data.
 
 I mostly work on networking, distributed systems, and observability, in C, Go, Rust, and Python.
 
