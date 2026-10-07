@@ -1,74 +1,23 @@
-# Hugo Oliveira Vicente
+# Hugo Vicente
 
-**Technical Product Manager · Solutions Engineer · Forward Deployed Engineer**
+Technical Product Manager and Software Engineer based in Lisbon. Computer Science and Engineering graduate from Instituto Superior Técnico.
 
-[hugovicente.dev](https://hugovicente.dev) · [LinkedIn](https://www.linkedin.com/in/hugo-vicente11) · [GitHub](https://github.com/hugo-vicente11) · hugo.asm11@gmail.com
+Most recently a Product Manager Intern on Cloudflare Tunnel, where I owned [Protected Quick Tunnels](https://blog.cloudflare.com/protected-quick-tunnels): email authentication for accountless tunnels, behind a single flag. Before that, I administered 80+ Linux servers at IST and led an ML project on synthetic clinical data.
 
-![Python](https://img.shields.io/badge/-Python-3776AB?style=flat-square&logo=python&logoColor=white)
-![C](https://img.shields.io/badge/-C-A8B9CC?style=flat-square&logo=c&logoColor=white)
-![Rust](https://img.shields.io/badge/-Rust-000000?style=flat-square&logo=rust&logoColor=white)
-![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black)
+I mostly work on networking, distributed systems, and observability, in C, Go, Rust, and Python.
 
----
-
-## Summary
-
-CS Engineering student at Instituto Superior Técnico, currently a Product Manager Intern on Cloudflare's Tunnel team. I work at the intersection of product and engineering: scoping ambiguous requirements into shipped systems, and building the systems-level code myself where it matters. Background spans ML pipelines, distributed systems, cloud infrastructure, and observability tooling.
-
----
-
-## Experience
-
-| Role | Organization | Dates |
-|---|---|---|
-| Product Manager Intern, Cloudflare Tunnel | Cloudflare, Lisbon | Jul 2026 – Sep 2026 |
-| Project Manager | JUNITEC, Lisbon | Apr 2026 – Jun 2026 |
-| System Administrator | RNL, Instituto Superior Técnico | Apr 2025 – Jun 2026 |
-| Software Developer | JUNITEC, Lisbon | Oct 2025 – Apr 2026 |
-
-**Cloudflare, PM Intern (Tunnel).** Partnered with engineering, design, and customer-facing teams to scope and prioritize roadmap items, translating technical constraints into product requirements.
-
-**JUNITEC, Project Manager.** Owned the technical roadmap for a synthetic clinical data platform, combining CTGAN, TimeGAN, Synthea, and BioGears into a modular ML pipeline. Managed experimentation over 500Hz biosignal data from 6,000+ surgical patient records. Cut model experimentation costs by up to 70% via a standardized "train remotely, infer locally" workflow on Google Colab Pro.
-
-**RNL, IST, System Administrator.** Administer and monitor 80+ Linux servers, including HPC clusters and virtualized environments. Built Grafana observability dashboards that reduced infrastructure incident diagnosis time by 35%.
-
-**JUNITEC, Software Developer.** Built an AR-based educational platform for the Calouste Gulbenkian Museum using React and Firebase, translating stakeholder requirements into weekly engineering deliverables.
-
----
+[hugovicente.dev](https://hugovicente.dev) · [LinkedIn](https://www.linkedin.com/in/hugo-vicente11) · hugo.asm11@gmail.com
 
 ## Projects
 
-**[TraceBloom](https://github.com/hugo-vicente11/TraceBloom)** · Rust, TypeScript, Next.js, ClickHouse, OpenTelemetry, Docker
-Open-source observability and evaluation platform for LLM agents. Rust OTLP collector, ClickHouse storage, a live trace viewer, TS/Python SDKs, and an LLM-judge eval engine that flags prompt regressions. Directed AI agents through implementation while owning all architecture decisions across 7 milestones; 170+ automated tests in CI, 14 dependency CVEs remediated before public release.
+- **[TraceBloom](https://github.com/hugo-vicente11/TraceBloom)**: Open-source observability and evals for LLM agents. Rust OTLP collector, ClickHouse storage, Next.js live trace viewer, TypeScript and Python SDKs. 170+ tests in CI.
+- **[Go-VPN](https://github.com/hugo-vicente11/Go-VPN)**: Point-to-point VPN in Go that tunnels IP packets over UDP through a Linux TUN device.
+- **[KVS Subscription Server](https://github.com/hugo-vicente11/KVS-Subscription-Server)**: Multithreaded key-value store in C with named-pipe IPC and real-time subscriptions.
+- **[Fault-Tolerant Blockchain](https://github.com/hugo-vicente11/fault-tolerant-blockchain-java)**: Replicated ledger in Java with gRPC, a central sequencer, RSA-2048 signed blocks, and client failover.
+- **[Rust-OS](https://github.com/hugo-vicente11/Rust-OS)**: x86_64 kernel from scratch in Rust. In progress.
 
-**[KVS Subscription Server](https://github.com/hugo-vicente11/KVS-Subscription-Server)** · C, Pthreads, Mutexes, Semaphores, Linux API
-Multithreaded key-value store with a named-pipe client-server architecture and real-time subscription notifications. POSIX thread synchronization (mutexes, semaphores, read-write locks) preserves data consistency across concurrent client sessions.
+## Open source
 
-**[Fault-Tolerant Blockchain](https://github.com/hugo-vicente11/fault-tolerant-blockchain-java)** · Java 17, gRPC, Protocol Buffers, RSA-2048
-Distributed replicated blockchain ledger with a central sequencer for global transaction ordering and RSA-2048 signed blocks across multiple nodes. Implements optimistic execution, linearizable reads, and client failover.
-
-**[AI-Nuruomino-Solver](https://github.com/hugo-vicente11/AI-Nuruomino-Solver)** · Python, CSP, DFS Backjumping, Graph Algorithms
-Constraint-satisfaction solver for the Nuruomino (LITS) puzzle. Custom backjumping DFS with region-based MRV heuristics, adjacency-graph analysis, and forward checking to prune invalid layouts efficiently.
-
-**[Smart-Parking-Manager](https://github.com/hugo-vicente11/Smart-Parking-Manager)** · C
-Modular system for managing multiple parking lots: vehicle tracking, fee calculation, and revenue reporting, with full input validation and memory safety.
-
----
-
-## Skills
-
-**Languages:** Python, C, Java, C++, SQL
-**Tools & Platforms:** Git, Linux, Docker, PostgreSQL, ClickHouse, React, Firebase, Grafana, Google Colab
-**Certifications:** Data Science with Python, Machine Learning, Introduction to Quantum Computing (IBM)
-**Languages spoken:** Portuguese (native), English (fluent), Spanish (basic), French (basic)
-
----
-
-## Education
-
-**Instituto Superior Técnico**, Lisbon. B.Sc. Computer Science and Engineering (Sep 2023 - Jun 2026)
-
----
-
-hugo.asm11@gmail.com · [linkedin.com/in/hugo-vicente11](https://www.linkedin.com/in/hugo-vicente11) · [github.com/hugo-vicente11](https://github.com/hugo-vicente11)
+- **cloudflare/workers-sdk**: [Support email-protected Quick Tunnels in Wrangler](https://github.com/cloudflare/workers-sdk/pull/15639)
+- **cloudflare/cloudflare-docs**: 9 merged PRs on Cloudflare Tunnel, including [Quick Tunnel access policies](https://github.com/cloudflare/cloudflare-docs/pull/33416), [JSON log output](https://github.com/cloudflare/cloudflare-docs/pull/33214), and [HTTPS origin troubleshooting](https://github.com/cloudflare/cloudflare-docs/pull/33123)
+- **transmission/transmission**: [Route UDP announces through a SOCKS5 proxy](https://github.com/transmission/transmission/pull/8808) (open)
